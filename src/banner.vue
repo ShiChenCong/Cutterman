@@ -598,7 +598,7 @@ export default {
             }
     }
 
-     @media screen and (max-width:1530px){
+     @media screen and (max-width:1000px){
         .photo ul li{
             width:100%;
         }
