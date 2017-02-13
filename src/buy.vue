@@ -1,5 +1,5 @@
 <template>
-	<div style="margin-top:100px;">购买</div>
+	<div style="margin-top:100px;text-align:center">购买</div>
 </template>
 <script>
 	export default{

@@ -15,7 +15,7 @@ const router=new VueRouter({
   hashbang:false,
   history:true,
 	//routes:[{path:'/',component:mr,children:[{path:'/',redirect:'/app'},{path:'/app',component:App},{path:'/first',component:first}]}]
-	routes:[{path:'',component:banner},{path:'/buy',component:buy},{path:'/install',component:install}]
+	routes:[{path:'',component:banner},{path:'/buy',component:buy},{path:'/install',component:install},{path:'/first',component:first}]
 });
 router.beforeEach((to, from, next) => {
  // console.log(to);

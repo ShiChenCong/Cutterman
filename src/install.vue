@@ -1,5 +1,5 @@
 <template>
-	<div style="margin-top:100px;">安装指南</div>
+	<div style="margin-top:100px;text-align:center;">安装指南</div>
 </template>
 <script>
 	export default{

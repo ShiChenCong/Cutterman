@@ -59,7 +59,7 @@
                     </li>
                     <li @click='route_go("/install")'>安装指南</li>
                     <li @click='route_go("/buy")'>购买</li>
-                    <li>常见问题</li>
+                    <li @click='route_go("/first")'>常见问题</li>
                 </ul>
             </div>
         </header>
@@ -219,6 +219,7 @@
                     padding: 20px 30px;
                     line-height: normal;
                     width: 1140px;
+                    border-radius: 2px;
                     > div {
                         display: inline-block;
                         vertical-align: top;
@@ -339,9 +340,19 @@
         .list > ul > li .products {
                 width: 100%;
                 left: 3%;
+                text-align: center;
+        }
+        .detail{
+            width:100%;
         }
         .second{
             width:76%
+        }
+        .list ul{
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            margin-right: 0;
         }
     }
 

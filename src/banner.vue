@@ -8,7 +8,7 @@
             </div>
         </div>
         <section>
-            <div class='test' v-if='distance>=0'>
+            <div class='test' v-show='distance>=0'>
                 <div class='detail_one'>
                     <h1>所有图片</h1>
                     <div class="separator"></div>
@@ -134,7 +134,7 @@
                     </div>
                 </div>
             </div>
-            <div class='test' v-if='distance>=1'>
+            <div class='test' v-show='distance>=1'>
                 <div class='detail_two'>
                     <h1>如何购买</h1>
                     <div class="separator"></div>
@@ -157,7 +157,7 @@
                     <a href="http://www.cutterman.cn/zh/user/register" class="btn">注册</a>
                 </div>
             </div>
-            <div class='test' v-if='distance>=2'>
+            <div class='test' v-show='distance>=2'>
                 <div class='detail_three'>
                     <h1>所有图片</h1>
                     <div class="separator"></div>
@@ -167,7 +167,7 @@
                     <img style="display:block;margin:auto;" width="300" src="http://cdn.cutterman.cn//cutterman/images/weixin_public.jpg" alt="">
                 </div>
             </div>
-            <div class='test' v-if='distance>=3'>
+            <div class='test' v-show='distance>=3'>
               <div  class='detail_four'>
                     <div class='container'>
                       <!-- <div class='swiper' :style="styleObject"> -->
@@ -231,7 +231,7 @@
                     </ul>
               </div>
             </div>
-            <div class='test' v-if='distance >=4'>
+            <div class='test' v-show='distance >=4'>
               <div class='detail_five'>
                       <footer>
                             <div class='bot'>
@@ -380,9 +380,9 @@ export default {
     @keyframes slowshow {
         0% {
             opacity: 0;
-            -webkit-transform: translate3d(0, 30px, 0);
-            -ms-transform: translate3d(0, 30px, 0);
-            transform: translate3d(0, 30px, 0);
+            -webkit-transform: translate3d(0, 60px, 0);
+            -ms-transform: translate3d(0, 60px, 0);
+            transform: translate3d(0, 60px, 0);
         }
 
         100% {
@@ -598,7 +598,7 @@ export default {
             }
     }
 
-     @media screen and (max-width:1000px){
+     @media screen and (max-width:830px){
         .photo ul li{
             width:100%;
         }
