@@ -8,13 +8,11 @@ import first from './first.vue'
 import buy from './buy.vue'
 import banner from './banner.vue'
 import install from './install.vue'
-const mr={
-    template:'<router-view></router-view>'
-};
+
+
 const router=new VueRouter({
   hashbang:false,
   history:true,
-	//routes:[{path:'/',component:mr,children:[{path:'/',redirect:'/app'},{path:'/app',component:App},{path:'/first',component:first}]}]
 	routes:[{path:'',component:banner},{path:'/buy',component:buy},{path:'/install',component:install},{path:'/first',component:first}]
 });
 router.beforeEach((to, from, next) => {
@@ -29,9 +27,5 @@ new Vue({
   el: '#app', 
   router,
   render: h => h(App),
-  // components:{
-  //     App
-  // },
-  // template:"<App/>"
 })
 
