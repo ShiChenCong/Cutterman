@@ -802,15 +802,15 @@ export default {
     }
 
     .wx{
-        background: url('assets/wx.png') 4px 4px no-repeat;
+        background: url('./assets/wx.png') 4px 4px no-repeat;
     }
 
     .qq{
-        background: url('assets/qq.png') 4px 4px no-repeat;
+        background: url('./assets/qq.png') 4px 4px no-repeat;
     }
 
      .xl{
-        background: url('assets/xl.png') 4px 4px no-repeat;
+        background: url('./assets/xl.png') 4px 4px no-repeat;
     }
 
 

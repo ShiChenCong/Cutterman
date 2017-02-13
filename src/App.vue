@@ -366,22 +366,22 @@
 
     .icon_top li{
         &:nth-child(1) i{
-            background: url('assets/wx_top.png') 4px 12px no-repeat;
+            background: url('./assets/wx_top.png') 4px 12px no-repeat;
         }
         &:nth-child(2) i{
-            background: url('assets/xl_top.png') 4px 12px no-repeat;
+            background: url('./assets/xl_top.png') 4px 12px no-repeat;
         }
         &:nth-child(3) i{
-            background: url('assets/qq_top.png') 4px 12px no-repeat;
+            background: url('./assets/qq_top.png') 4px 12px no-repeat;
         }
     }
 
     .sign_up div:first-child i {
-            background: url('assets/sign_up.png')   no-repeat;
+            background: url('./assets/sign_up.png')   no-repeat;
             background-position: 4px 9px;
         }
    .sign_up div:last-child i{
-            background: url('assets/sign_in.png')   no-repeat;
+            background: url('./assets/sign_in.png')   no-repeat;
             background-position: 4px 9px;
         }
     .sign_up{
