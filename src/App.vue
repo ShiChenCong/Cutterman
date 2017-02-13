@@ -17,7 +17,7 @@
                          <div class='products' v-show="change_hide" :class="{tran:change_hide}">
                         <!--<div class='products' :class="{tran:change_hide}">-->
                             <div style='width:33.33%'  v-show='screenWidth_val'>
-                                <h4>新品推荐!!!</h4>
+                                <h4>新品推荐!!!!</h4>
                                 <a href="http://www.psmirror.cn" target="_blank">设计稿实时预览神器 - PsMirror</a>
                                 <div style='font-weight:normal;margin-bottom:17px'>它实时地在手机上同步PS中的设计稿, 支持Android/IOS, 支持wifi/usb连接, 响应速度快!
                                 </div>

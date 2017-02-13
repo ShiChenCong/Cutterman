@@ -4,7 +4,7 @@
             <img src="http://cdn.cutterman.cn//cutterman/images/index/slider-5-slide-1.jpg">
             <div class='shade'></div>
             <div class="content">
-                <p>Cutterman致力于改善设计师的工作效率,<br/> 为设计师提供优秀、高效、实用的技术解决方案, 解放双手。<br/>让创意不再有界限, 让设计更专注!</p>
+                <p>Cutterman致力于改善设计师工作效率,<br/> 为设计师提供优秀、高效、实用的技术解决方案, 解放双手。<br/>让创意不再有界限, 让设计更专注!</p>
             </div>
         </div>
         <section>
