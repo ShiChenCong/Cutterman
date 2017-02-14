@@ -18,5 +18,7 @@ npm run build
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
-  + 个人技术博客
-    + http://www.jianshu.com/u/bb7571affb1a
+
+
++ 个人技术博客
+  + http://www.jianshu.com/u/bb7571affb1a
