@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+### 运用技术
+>主要是vue+vue-router，脚手架用的官方的vue-cli，还是挺方便的，然后自己加了less的loader，部分的es6
+
+
 ## Build Setup
 
 ``` bash
